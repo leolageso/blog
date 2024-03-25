@@ -15,7 +15,6 @@ spec:
       containers:
         - name: posts
           image: leolageso/posts:latest
-          imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service

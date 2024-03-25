@@ -15,7 +15,6 @@ spec:
       containers:
         - name: event-bus
           image: leolageso/event-bus:latest
-          imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service

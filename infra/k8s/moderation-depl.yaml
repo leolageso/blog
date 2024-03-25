@@ -15,7 +15,6 @@ spec:
       containers:
         - name: moderation
           image: leolageso/moderation:latest
-          imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
