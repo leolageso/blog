@@ -17,16 +17,16 @@ build:
         manual:
           - src: 'src/**/*.js'
             dest: .
-    - image: leolageso/comments
-      context: comments
+    - image: leolageso/event-bus
+      context: event-bus
       docker:
         dockerfile: Dockerfile
       sync:
         manual:
           - src: '*.js'
             dest: .
-    - image: leolageso/event-bus
-      context: event-bus
+    - image: leolageso/comments
+      context: comments
       docker:
         dockerfile: Dockerfile
       sync:
